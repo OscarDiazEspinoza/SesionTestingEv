@@ -18,6 +18,14 @@ public class Pila {
 			return false;
 		}
 	}
+	
+	public int agrega (int i) {
+		if(tos == -1){
+			return i;
+		}else{
+			return 2;
+		}
+	}
 		
 	
 	

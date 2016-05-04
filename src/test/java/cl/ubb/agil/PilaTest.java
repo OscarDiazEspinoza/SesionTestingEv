@@ -14,13 +14,24 @@ public class PilaTest {
 	}
 	
 	@Test
-	public void agregaunostacknovacio(){
+	public void stackvacio(){
 		
 		Pila pil = new Pila();
 		
 		boolean result = pil.pilavacia();
 		
 		assertThat (result,is(true));
+		
+	}
+	
+	@Test
+	public void agregaunostacknovacio(){
+		
+		Pila pil = new Pila();
+		
+		int result = pil.agrega(1);
+		
+		assertThat (result,is(false));
 		
 	}
 
